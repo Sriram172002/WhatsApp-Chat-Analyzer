@@ -7,7 +7,7 @@ import helper
 import preprocessor
 
 
-@streamlit.cache
+@streamlit.cache_data
 def load_data_frame(data):
     return preprocessor.preprocess(data)
 
